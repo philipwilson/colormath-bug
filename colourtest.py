@@ -5,10 +5,10 @@ from colormath.color_conversions import convert_color
 from colormath.color_diff import delta_e_cie2000, delta_e_cie1994, delta_e_cie1976
 
 greeting = """
-this test uses the colormath python library to:
+This test uses the colormath python library to:
 1. Construct a CMYKColor object, 
-2. Convert it to L*a*b with convert_color
-3. Use the L*a*b* values to construct a new LabColor object
+2. Convert it to LabColor with convert_color
+3. Use the L*a*b* values from the resulting LabColor object to construct a new LabColor object
 4. Convert it to CMYKColor and dump the results.  
 
 We should wind up where we started, modulo floating-point minutiae, but we don't.
