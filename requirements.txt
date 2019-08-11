@@ -1,0 +1,2 @@
+numpy==1.15.4
+colormath==3.0.0
